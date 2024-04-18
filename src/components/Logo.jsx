@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Logo({width = '100px'}) {
+function Logo({ width = "100px" }) {
   return (
-    <div>Logo</div>
-  )
+    <div className=" text-blue-900 font-bold text-lg">
+      Blog<span className=" text-orange-600">Bud</span>
+    </div>
+  );
 }
 
-export default Logo
+export default Logo;
